@@ -1,38 +1,18 @@
 // colors
-$pickled-bluewood: #2C4058;
-$input-text-color: #4B5562;
-$havelock-blue:#3C7FD4;
-$turquoise:#24CCFA;
-$malibu:#55B7FF;
-$heliotrope: rgb(126, 90, 255);
 $white-color: #fff;
 $black-color: #000;
-$hero-gradient: linear-gradient(243deg, rgba(126, 90, 255, 0.902) 16.9%, rgb(85, 183, 255, .9) 83.27%);
-$facebook-color:#3b5998;
-$instagram-base: #bc2a8d;
-$instagram-color: rgb(233, 89, 80);
-$twitter-color: #1DA1F2;
-$orange-color: #f76707;
-$green-color: green;
-$periwinkle-gray-color: #BCD0E5;
-$gray-3-color: #dee2e6;
-$gray-6-color: #868e96;
-$dark-gray: #333;
-$dark-gray-opacity: rgb(51, 51, 51, 0.70);
-$gray-color: #999;
-$brown-color: #565656;
-$subtitle-content-color: #7B7B7B;
-$dodger-blue: #5373FD;
-$dodger-dark: #486BFE;
-$block-bg-color: rgba(35, 35, 35, 0.90);
-$bittersweetapprox: #FF6363;
-$azure-radiance: #00A2FF;
+$brown-dark: #35312D;
+$arrow-inactive: #202020;
+$tomato: #C62100;
+$tomato-light: #F16A50;
+$brown-light: #F8F1EA;
+$dark-dot-inactive: #CAC2BA;
 
 
 // fonts
-$default-font-name: 'Open Sans';
+$default-font-name: 'Montserrat';
 $secondary-font-name: 'Montserrat';
-$font-sub-menu: 'Source Sans 3'; 
+$font-sub-menu: 'Montserrat'; 
 $btn-font-name: 'Montserrat';
 $fallback: Arial, Helvetica, sans-serif;
 $default-font-size: 18px;
@@ -82,7 +62,7 @@ $btn-radius: 0;
 $btn-width: 190px;
 $btn-height: 50px;
 $border-btn-color-primary: transparent;
-$border-btn-color-secondary: $periwinkle-gray-color;
+$border-btn-color-secondary: $tomato;
 $btn-bg: transparent;
 $btn-text-color: $black-color;
 $btn-hover-text-color: $white-color;
@@ -99,12 +79,12 @@ $default-border: 1px solid $white-color;
 $default-body-color: $white-color;
 
 $container-padding: 15px;
-$container-max-width: 1200px;
+$container-max-width: 1400px;
 $width: 15px;
 $gap: 15px;
 $defaulp-count-col: 12;
 
-$default-width: 1200px;
+$default-width: 1400px;
 
 $breack-points: (
     "lg": 1200px,

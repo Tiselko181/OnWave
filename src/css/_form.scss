@@ -1,6 +1,6 @@
 .btn {
     display: inline-block;
-    border: 1px solid $pickled-bluewood;
+    border: 1px solid $tomato;
     width: $btn-width;
     height: $btn-height;
     display: inline-flex;
@@ -40,7 +40,7 @@
     &:hover {
         transform: scale(1.1);
         color: $btn-hover-text-color;
-        background-image: $hero-gradient;
+        background-image: $tomato;
         border: none;
     }
 }

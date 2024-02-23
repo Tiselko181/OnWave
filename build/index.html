@@ -15,61 +15,37 @@
     <header class="header">
     <div class="container header__container">
         <div class="row">
-            <div class="header__logo col-3 col-sm-5">
-                <img src="./images/logo/logo.png" alt="Monticello-logo" class="logo-img">
+            <div class="header__logo col-3">
+                <img src="./images/logo/logo_tomato.png" alt="OnWave" class="logo-img">
             </div>
-            <nav class="menu col-7 col-sm-6 col-md-12">
+            <nav class="header__menu menu col-3">
                 <ul class="menu__list">
                     <li class="menu__item">
-                        <a href="#about" class="menu__link active">about us</a>
+                        <a href="#home" class="menu__link active">Home</a>
                     </li>
                     <li class="menu__item">
-                        <a href="#gallery" class="menu__link">projects</a>
+                        <a href="#catalog" class="menu__link">Catalog</a>
                     </li>
                     <li class="menu__item">
-                        <a href="#news" class="menu__link">news</a>
+                        <a href="#news" class="menu__link">News</a>
                     </li>
                     <li class="menu__item">
-                        <a href="#contacts-form" class="menu__link">contact</a>
-                    </li>
-                    <li class="menu__item socials-items">
-                        <a href="https://www.facebook.com/" target="_blank"
-                            class="header-socials__facebook socials-link">
-                            <svg class="icon">
-                                <use xlink:href="#facebook"></use>
-                            </svg>
-                        </a>
-                        <a href="https://twitter.com/" target="_blank" class="header-socials__twitter socials-link">
-                            <svg class="icon">
-                                <use xlink:href="#twitter"></use>
-                            </svg>
-                        </a>
-                        <a href="https://www.instagram.com/" target="_blank"
-                            class="header-socials__instagram socials-link">
-                            <svg class="icon">
-                                <use xlink:href="#instagram"></use>
-                            </svg>
-                        </a>
+                        <a href="#contacts" class="menu__link">Contacts</a>
                     </li>
                 </ul>
-                <button class="menu-open-btn only-mobile" type="button">
+                <!-- <button class="menu-open-btn only-mobile" type="button">
                     <span class="menu-open-btn__line"></span>
-                </button>
+                </button> -->
             </nav>
-            <div class="col-2 header-socials">
-                <a href="https://www.facebook.com/" target="_blank" class="header-socials__facebook">
-                    <svg class="icon">
-                        <use xlink:href="#facebook"></use>
+            <div class="header__auth auth col-3">
+                <a>
+                    <svg class="search">
+                        <use xlink:href="#search"></use>
                     </svg>
                 </a>
-                <a href="https://twitter.com/" target="_blank" class="header-socials__twitter">
-                    <svg class="icon">
-                        <use xlink:href="#twitter"></use>
-                    </svg>
-                </a>
-                <a href="https://www.instagram.com/" target="_blank" class="header-socials__instagram">
-                    <svg class="icon">
-                        <use xlink:href="#instagram"></use>
+                <a>
+                    <svg class="profile">
+                        <use xlink:href="#profile"></use>
                     </svg>
                 </a>
             </div>
@@ -78,341 +54,9 @@
 </header>
 
     <main class="main">
-        <section class="hero section">
-    <div class="hero-slider">
-        <div class="hero-slider__item">
-            <img src="images/hero/main-hero.jpg" alt="slider_1" class="hero-slider__img">
-            <div class="container hero-slider__container">
-                <h1 class="hero-slider__title">SIMPLE &amp; MODERN</h1>
-                <p class="hero-slider__subtitle">WE MAKE THE WORLD BEAUTIFUL EVERYDAY</p>
-            </div>
-            <div>
-                <a href="#about" class="smoothScrollDown__link">
-                    <svg class="hero-slider__icon icon">
-                        <use xlink:href="#arrow"></use>
-                    </svg>
-                </a>
-            </div>
-        </div>
-        <div class="hero-slider__item">
-            <img src="images/hero/hero_2.jpg" alt="slider_2" class="hero-slider__img">
-            <div class="container hero-slider__container">
-                <h2 class="hero-slider__title">SIMPLE &amp; MODERN</h2>
-                <p class="hero-slider__subtitle">WE MAKE THE WORLD BEAUTIFUL EVERYDAY</p>
-            </div>
-            <div>
-                <a href="#about" class="smoothScrollDown__link">
-                    <svg class="hero-slider__icon icon">
-                        <use xlink:href="#arrow"></use>
-                    </svg>
-                </a>
-            </div>
-        </div>
-        <div class="hero-slider__item">
-            <img src="images/hero/hero_3.jpg" alt="slider_3" class="hero-slider__img">
-            <div class="container hero-slider__container">
-                <h2 class="hero-slider__title">SIMPLE &amp; MODERN</h2>
-                <p class="hero-slider__subtitle">WE MAKE THE WORLD BEAUTIFUL EVERYDAY</p>
-            </div>
-            <div>
-                <a href="#about" class="smoothScrollDown__link">
-                    <svg class="hero-slider__icon icon">
-                        <use xlink:href="#arrow"></use>
-                    </svg>
-                </a>
-            </div>
-        </div>
-        <div class="hero-slider__item">
-            <img src="images/hero/hero_4.jpg" alt="slider_4" class="hero-slider__img">
-            <div class="container hero-slider__container">
-                <h2 class="hero-slider__title">SIMPLE &amp; MODERN</h2>
-                <p class="hero-slider__subtitle">WE MAKE THE WORLD BEAUTIFUL EVERYDAY</p>
-            </div>
-            <div>
-                <a href="#about" class="smoothScrollDown__link">
-                    <svg class="hero-slider__icon icon">
-                        <use xlink:href="#arrow"></use>
-                    </svg>
-                </a>
-            </div>
-        </div>
-        <div class="hero-slider__item">
-            <img src="images/hero/hero_5.jpg" alt="slider_5" class="hero-slider__img">
-            <div class="container hero-slider__container">
-                <h2 class="hero-slider__title">SIMPLE &amp; MODERN</h2>
-                <p class="hero-slider__subtitle">WE MAKE THE WORLD BEAUTIFUL EVERYDAY</p>
-            </div>
-            <div class="hero-slider__scrollDownBtn">
-                <a href="#about" class="smoothScrollDown__link">
-                    <svg class="hero-slider__icon icon">
-                        <use xlink:href="#arrow"></use>
-                    </svg>
-                </a>
-            </div>
-        </div>
-    </div>
-</section>
-
-        <section class="about" id="about">
-    <div class="container">
-        <div class="row">
-            <h3 class="about__heading">What we do</h3>
-            <div class="col-7 col-lg-6 col-sm-12 about__img-wrapper">
-                <img src="images/about/about_1.jpg" alt="New York City" width="630" height="470" class="about__img">
-            </div>
-            <div class="col-5 col-lg-6 col-sm-12 about__content-wrapper">
-                <p class="about__suptitle">ONE WORLD</p>
-                <h3 class="about__title">TRADE CENTER</h3>
-                <p class="about__content">Increasing prosperity in our lives can be accomplished by having the
-                    right frame of mind. The truth is, our thoughts are very powerful.</p>
-                <div class="about__btn-wrapper">
-                    <a href="#" class="about__btn btn btn-primary">MORE DETAILS</a>
-                </div>
-                <p class="about__subcontent">
-                    <svg class="icon about__icon">
-                        <use xlink:href="#bi bi-geo-alt-fill"></use>
-                    </svg>
-                    <span class="subcontent-text">New York City, United States - 1776 feet</span>
-                </p>
-            </div>
-            <div class="col-5 col-lg-6 col-sm-12 about__content-wrapper-reverse">
-                <p class="about__suptitle">INTERNATIONAL</p>
-                <h3 class="about__title">COMMERCE CENTRE</h3>
-                <p class="about__content">Successful businesses have many things in common, today we’ll look at
-                    the big &#180;R&#180; of recognition and how a digital advertising network may help.
-                </p>
-                <div class="about__btn-wrapper">
-                    <a href="#" class="about__btn btn btn-primary">MORE DETAILS</a>
-                </div>
-                <p class="about__subcontent">
-                    <svg class="icon about__icon">
-                        <use xlink:href="#bi bi-geo-alt-fill"></use>
-                    </svg>
-                    <span class="subcontent-text">Hong Kong - 1588 feet</span>
-                </p>
-            </div>
-            <div class="col-7 col-lg-6 col-sm-12 about__img-wrapper-reverse">
-                <img src="images/about/about_2.jpg" alt="Hong Kong" width="630" height="470" class="about__img">
-            </div>
-        </div>
-    </div>
-</section>
-
-        <section class="news" id="news">
-    <div class="container">
-        <h3 class="news__heading">LATEST NEWS</h3>
-        <div class="row news__row">
-            <div class="news__card-wrapper">
-                <img src="images/news/maldonado_1.jpg" alt="project" width="370" height="240" class="news__img img-top">
-                <div class="news__text-wrapper">
-                    <h4 class="news__title">HYPNOTIZE YOURSELF INTO THE GHOST.</h4>
-                    <p class="news__content">There are many things that are important to catalog design...</p>
-                    <div class="news__author">
-                        <img src="images/news/maldonado.jpg" alt="avatar" class="news__author-img rounded-circle">
-                        <div class="author-info">
-                            <p class="news__author-name">ISABELLA MALDONADO </p>
-                            <p class="news__author-date">06 Feb 2020</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="news__card-wrapper">
-                <img src="images/news/brun_1.jpg" alt="project" width="370" height="240" class="news__img">
-                <div class="news__text-wrapper">
-                    <h4 class="news__title">SEE THE UNMATCHED BEAUTY OF THE GREAT.</h4>
-                    <p class="news__content">Free directories: directories are perfect for customers
-                        that are
-                        searching for...</p>
-                    <div class="news__author">
-                        <img src="images/news/brun.jpg" alt="avatar" class="news__author-img rounded-circle">
-                        <div class="author-info">
-                            <p class="news__author-name">ALJA BRUN</p>
-                            <p class="news__author-date">20 Jan 2020</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="news__card-wrapper">
-                <img src="images/news/freeman_1.jpg" alt="project" width="370" height="240" class="news__img">
-                <div class="news__text-wrapper">
-                    <h4 class="news__title">EFFECTIVE ADVERTISING POINTERS.</h4>
-                    <p class="news__content">Having a home based business is a wonderful asset to your life...
-                    </p>
-                    <div class="news__author">
-                        <img src="images/news/freeman.jpg" alt="avatar" class="news__author-img rounded-circle">
-                        <div class="author-info">
-                            <p class="news__author-name">DOMINIC FREEMAN</p>
-                            <p class="news__author-date">13 Dec 2019</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="news__card-wrapper">
-                <img src="images/news/ward_1.jpg" alt="project" width="370" height="240" class="news__img img-ward">
-                <div class="news__text-wrapper">
-                    <h4 class="news__title">HYPNOTIZE YOURSELF INTO THE GHOST.</h4>
-                    <p class="news__content">There are many things that are important to catalog design...</p>
-                    <div class="news__author">
-                        <img src="images/news/ward.jpg" alt="avatar" class="news__author-img rounded-circle">
-                        <div class="author-info">
-                            <p class="news__author-name">ALICE WARD</p>
-                            <p class="news__author-date">30 Nov 2019</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="news__card-wrapper">
-                <img src="images/news/brown_1.jpg" alt="project" width="370" height="240" class="news__img">
-                <div class="news__text-wrapper">
-                    <h4 class="news__title">SEE THE UNMATCHED BEAUTY OF THE GREAT.</h4>
-                    <p class="news__content">There are many things that are important to catalog design...</p>
-                    <div class="news__author">
-                        <img src="images/news/brown.jpg" alt="avatar" class="news__author-img rounded-circle">
-                        <div class="author-info">
-                            <p class="news__author-name">DAN BROWN</p>
-                            <p class="news__author-date">21 Oct 2019</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-        <section class="gallery" id="gallery">
-    <div class="container">
-        <h3 class="gallery__heading">GALLERY</h3>
-        <div class="gallery__wrapper" id="gallery__wrapper">
-            <a href="./images/gallery/img_1.jpg" data-fancybox="gallery" class="gallery__item gallery__item-big">
-                <img src="./images/gallery/img_1.jpg" alt="" class="gallery__img">
-            </a>
-            <a href="./images/gallery/img_2.jpg" data-fancybox="gallery" class="gallery__item">
-                <img src="./images/gallery/img_2.jpg" alt="" class="gallery__img">
-            </a>
-            <a href="./images/gallery/img_3.jpg" data-fancybox="gallery" class="gallery__item">
-                <img src="./images/gallery/img_3.jpg" alt="" class="gallery__img">
-            </a>
-            <a href="./images/gallery/img_4.jpg" data-fancybox="gallery" class="gallery__item">
-                <img src="./images/gallery/img_4.jpg" alt="" class="gallery__img">
-            </a>
-            <a href="./images/gallery/img_5.jpg" data-fancybox="gallery" class="gallery__item">
-                <img src="./images/gallery/img_5.jpg" alt="" class="gallery__img">
-            </a>
-            <a href="./images/gallery/img_6.jpg" data-fancybox="gallery"
-                class="gallery__item gallery__item item_hidden _hidden xxs">
-                <img src="./images/gallery/img_6.jpg" alt="" class="gallery__img">
-            </a>
-            <a href="./images/gallery/img_7.jpg" data-fancybox="gallery"
-                class="gallery__item gallery__item gallery__item-big item_hidden _hidden ">
-                <img src="./images/gallery/img_7.jpg" alt="" class="gallery__img">
-            </a>
-            <a href="./images/gallery/img_8.jpg" data-fancybox="gallery" class="gallery__item item_hidden _hidden">
-                <img src="./images/gallery/img_8.jpg" alt="" class="gallery__img">
-            </a>
-            <a href="./images/gallery/img_9.jpg" data-fancybox="gallery" class="gallery__item item_hidden _hidden">
-                <img src="./images/gallery/img_9.jpg" alt="" class="gallery__img">
-            </a>
-            <a href="./images/gallery/img_10.jpg" data-fancybox="gallery" class="gallery__item item_hidden _hidden">
-                <img src="./images/gallery/img_10.jpg" alt="" class="gallery__img">
-            </a>
-            <a href="./images/gallery/img_11.jpg" data-fancybox="gallery" class="gallery__item item_hidden _hidden">
-                <img src="./images/gallery/img_11.jpg" alt="" class="gallery__img">
-            </a>
-            <a href="./images/gallery/img_12.jpg" data-fancybox="gallery" class="gallery__item item_hidden _hidden xxs">
-                <img src="./images/gallery/img_12.jpg" alt="" class="gallery__img">
-            </a>
-            <a href="./images/gallery/img_13.jpg" data-fancybox="gallery"
-                class="gallery__item gallery__item-big item_hidden _hidden">
-                <img src="./images/gallery/img_13.jpg" alt="" class="gallery__img">
-            </a>
-            <a href="./images/gallery/img_14.jpg" data-fancybox="gallery" class="gallery__item item_hidden _hidden">
-                <img src="./images/gallery/img_14.jpg" alt="" class="gallery__img">
-            </a>
-            <a href="./images/gallery/img_15.jpg" data-fancybox="gallery" class="gallery__item item_hidden _hidden">
-                <img src="./images/gallery/img_15.jpg" alt="" class="gallery__img">
-            </a>
-        </div>
-        <div class="gallery__btn-wrapper">
-            <button type="button" class="btn btn-primary gallery__btn" id="openGalleryBtn">see more</button>
-            <!-- <button type="button" class="btn btn-primary gallery__btn" id="closeGalleryBtn">close</button> -->
-        </div>
-    </div>
-</section>
 
     </main>
-    <footer class="footer" id="footer">
-    <div class="container footer__container">
-        <!-- <div class="footer__contact-form contact-form" id="contacts">
-            <h3 class="contact-form__title">get in touch</h3>
-            <div class="contact-form__wrapper">
-                <ul class="contact-form__contact col-6 col-sm-12">
-                    <li class="contact-form__contact-item">
-                        <svg class="contact-form__icon">
-                            <use xlink:href="#location-dot"></use>
-                        </svg>
-                        <span class="contact-form__addres-text">91 Nolan Extensions Suite 670</span>
-                    </li>
-                    <li class="contact-form__contact-item">
-                        <svg class="contact-form__icon">
-                            <use xlink:href="#phone"></use>
-                        </svg>
-                        <span class="contact-form__addres-text">+001 356-868-2454</span>
-                    </li>
-                    <li class="contact-form__contact-item">
-                        <svg class="contact-form__icon">
-                            <use xlink:href="#inbox"></use>
-                        </svg>
-                        <span class="contact-form__addres-text">montichello@service.com</span>
-                    </li>
-                    <li class="contact-form__contact-item">
-                        <svg class="contact-form__icon">
-                            <use xlink:href="#clock"></use>
-                        </svg>
-                        <span class="contact-form__addres-text">From 07:05AM to 19:30PM</span>
-                    </li>
-                </ul>
-                <form id="contacts-form" action="#" method="get" class="contact-form__inputs col-6 col-sm-12">
-                    <div class="contact-form__name-input">
-                        <input type="text" name="name" id="name" placeholder="Full Name" value="" class="input_name">
-                    </div>
-                    <div class="contact-form__email-input">
-                        <input type="email" name="email" id="email" placeholder="Email" value="" class="input_email">
-                    </div>
-                    <button class="contact-form__btn btn btn-secondary" type="submit" name="submit">
-                        <span>Submit</span>
-                    </button>
-                </form>
-            </div>
-        </div> -->
-        <div class="row footer__row">
-            <div class="col-6 col-sm-12 footer__logo">
-                <img src="./images/logo/logo_tomato.png" alt="Monticello">
-            </div>
-            <div class="col-6 col-sm-12 footer__socials">
-                <a href="https://www.facebook.com/" target="_blank" class="footer__socials-link">
-                    <svg class="icon">
-                        <use xlink:href="#facebook"></use>
-                    </svg>
-                </a>
-                <a href="https://www.twitter.com/" target="_blank" class="footer__socials-link">
-                    <svg class="icon">
-                        <use xlink:href="#twitter"></use>
-                    </svg>
-                </a>
-                <a href="https://www.instagram.com/" target="_blank" class="footer__socials-link">
-                    <svg class="icon">
-                        <use xlink:href="#instagram"></use>
-                    </svg>
-                </a>
-            </div>
-            <div class="col-6 col-sm-12 footer__copyright">
-                <p class="copyright">Copyrights &copy; 2020 Montichello</p>
-            </div>
-        </div>
-    </div>
-    <a href="#" class="scroll-to-top"></a>
-</footer>
-
+    
 
     <svg width="0" height="0" class="hidden">
     <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 31" id="facebook">
