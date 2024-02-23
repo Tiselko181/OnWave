@@ -1,8 +1,19 @@
+@import "./menu";
+@import "./auth";
+
 .header {
 
     // .header__container
 
     &__container {
+    }
+
+    // .header__row
+
+    &__row {
+        justify-content: space-between;
+        align-items: center;
+        padding: 7px 0;
     }
 
     // .header__logo
@@ -18,38 +29,13 @@
     // .header__auth
 
     &__auth {
+        
     }
 }
-.container {
-}
-.row {
-}
-.col-3 {
-}
+
 .logo-img {
 }
-.menu {
 
-    // .menu__list
 
-    &__list {
-    }
 
-    // .menu__item
 
-    &__item {
-    }
-
-    // .menu__link
-
-    &__link {
-    }
-}
-.active {
-}
-.auth {
-}
-.search {
-}
-.profile {
-}

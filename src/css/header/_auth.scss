@@ -1,0 +1,27 @@
+.auth {
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+
+    // .auth__item
+
+    &__item {
+        align-content: center;
+        padding: 5px 15px;
+        height: 36px;
+
+        &:hover .auth__svg {
+            scale: 1.25;
+        }
+    }
+
+    //auth__svg
+
+    &__svg {
+        width: 36px;
+        height: 36px;
+    }
+}
+
+.active {
+}

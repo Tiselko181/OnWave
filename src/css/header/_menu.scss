@@ -1,0 +1,27 @@
+.menu {
+
+    // .menu__list
+
+    &__list {
+        display: flex;
+        // gap: 15px;
+    }
+
+    // .menu__item
+
+    &__item {
+    }
+
+    // .menu__link
+
+    &__link {
+        color: $black-color;
+        text-decoration: none;
+        padding: 28px 15px;
+
+        &:hover {
+            background-color: $tomato-light;
+            color: $white-color;
+        }
+    }
+}
