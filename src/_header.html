@@ -2,7 +2,7 @@
     <div class="container header__container">
         <div class="row header__row">
             <div class="header__logo col-2">
-                <img src="./images/logo/logo_tomato.png" alt="OnWave" class="logo-img">
+                <a href="#"><img src="./images/logo/logo_tomato.png" alt="OnWave" class="logo-img"></a>
             </div>
             <nav class="header__menu menu col-4">
                 <ul class="menu__list">
@@ -24,11 +24,14 @@
                 </button> -->
             </nav>
             <div class="header__auth auth col-2">
-                <p class="auth__item">
-                    <svg class="auth__svg">
-                        <use xlink:href="#search"></use>
-                    </svg>
-                </p>
+                <div class="auth__search-form">
+                    <input class="auth__search-input" placeholder="Search..." id="search-input" name="text" type="text">
+                    <button class="auth__search-icon">
+                        <svg class="auth__svg">
+                            <use xlink:href="#search"></use>
+                        </svg>
+                    </button>
+                </div>
                 <p class="auth__item">
                     <svg class="auth__svg">
                         <use xlink:href="#profile"></use>

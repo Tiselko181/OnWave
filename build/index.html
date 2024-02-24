@@ -16,7 +16,7 @@
     <div class="container header__container">
         <div class="row header__row">
             <div class="header__logo col-2">
-                <img src="./images/logo/logo_tomato.png" alt="OnWave" class="logo-img">
+                <a href="#"><img src="./images/logo/logo_tomato.png" alt="OnWave" class="logo-img"></a>
             </div>
             <nav class="header__menu menu col-4">
                 <ul class="menu__list">
@@ -38,11 +38,14 @@
                 </button> -->
             </nav>
             <div class="header__auth auth col-2">
-                <p class="auth__item">
-                    <svg class="auth__svg">
-                        <use xlink:href="#search"></use>
-                    </svg>
-                </p>
+                <div class="auth__search-form">
+                    <input class="auth__search-input" placeholder="Search..." id="search-input" name="text" type="text">
+                    <button class="auth__search-icon">
+                        <svg class="auth__svg">
+                            <use xlink:href="#search"></use>
+                        </svg>
+                    </button>
+                </div>
                 <p class="auth__item">
                     <svg class="auth__svg">
                         <use xlink:href="#profile"></use>
@@ -54,6 +57,37 @@
 </header>
 
     <main class="main">
+        <section class="hero section">
+    <div class="hero-slider">
+        <div class="hero-slider__item">
+            <img src="images/hero/picture.jpg" alt="slider_1" class="hero-slider__img">
+            <div class="container hero-slider__container">
+                <p class="hero-slider__title">discover new options</p>
+            </div>
+            <div>
+                <button class="hero__btn">view more</button>
+            </div>
+        </div>
+        <div class="hero-slider__item">
+            <img src="images/hero/picture_2.jpg" alt="slider_1" class="hero-slider__img">
+            <div class="container hero-slider__container">
+                <p class="hero-slider__title">expand your horizons</p>
+            </div>
+            <div>
+                <button class="hero__btn">view more</button>
+            </div>
+        </div>
+        <div class="hero-slider__item">
+            <img src="images/hero/picture_3.jpg" alt="slider_1" class="hero-slider__img">
+            <div class="container hero-slider__container">
+                <p class="hero-slider__title">Find your own style</p>
+            </div>
+            <div>
+                <button class="hero__btn">view more</button>
+            </div>
+        </div>
+    </div>
+</section>
 
     </main>
     
@@ -107,7 +141,7 @@
 </svg>
 
 
-    <!-- <script src="js/script.js"></script> -->
+    <script src="js/script.js"></script>
 </body>
 
 </html>
